@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="NoMoreCapture/NoMoreCapture.vcxproj" Id="8d3b2c30-2441-4516-9c99-24342bac46a2" />
+</Solution>

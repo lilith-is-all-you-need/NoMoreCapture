@@ -1,0 +1,17 @@
+# 编译产物
+.exe
+.obj
+.pdb
+.ilk
+.idb
+.dll
+.lib
+.exp
+
+# 针对 Visual Studio
+.vs
+.user
+.suo
+x64
+Debug
+Release
