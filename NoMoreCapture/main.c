@@ -60,7 +60,8 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
         out(L"注册窗口类失败", err);
         return -1;
     }
-    SetProcessDpiAwarenessContext(DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2);
+
+    //SetProcessDpiAwarenessContext(DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2);
     DWORD ext_style = WS_EX_LAYERED | WS_EX_NOACTIVATE | WS_EX_TOPMOST;
     DWORD style = WS_POPUP;
     ctx.window_hwnd = CreateWindowExW(ext_style, ctx.class_name, ctx.window_name, style, ctx.window_x, ctx.window_y, ctx.window_width, ctx.window_height, NULL, NULL, ctx.instance, &ctx);
